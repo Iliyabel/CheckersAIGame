@@ -25,7 +25,6 @@ public class HumanMove implements ActionListener {
     private CheckersBoard board;
 
     private JButton currentlySelectedPiece;
-    private boolean wait = true;
     public int moves;
 
     /**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

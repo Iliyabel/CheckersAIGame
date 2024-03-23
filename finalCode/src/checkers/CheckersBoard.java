@@ -52,7 +52,7 @@ public class CheckersBoard{
     private BufferedImage selectedKingPiece;
 
     // file location for leaderboard
-    private String fileName = "src/checkers/leaderBoard.txt";
+    private String fileName = "checkers/leaderBoard.txt";
 
     //button 2d array where we will add all of the button tiles
     private JButton[][] buttonBoard = new JButton[8][8];
@@ -109,7 +109,7 @@ public class CheckersBoard{
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         frame.setIconImage(Toolkit.getDefaultToolkit().getImage
-            ("src/Images/checkers_small.jpg"));
+            ("checkers/images/checkers_small.jpg"));
 
         loadPictures();
 
@@ -249,21 +249,21 @@ public class CheckersBoard{
     private void loadPictures() {
         try {
             selectablePiece = ImageIO.read(new 
-                File("src/images/selectablePiece.png"));
+                File("checkers/images/selectablePiece.png"));
             whitePiece = ImageIO.read(new 
-                File("src/images/whitePiece.png"));
+                File("checkers/images/whitePiece.png"));
             whiteKingPiece = ImageIO.read(new 
-                File("src/images/whiteKingPiece.png"));
+                File("checkers/images/whiteKingPiece.png"));
             blackPiece = ImageIO.read(new 
-                File("src/images/blackPiece.png"));
+                File("checkers/images/blackPiece.png"));
             blackKingPiece = ImageIO.read(new 
-                File("src/images/blackKingPiece.png"));
+                File("checkers/images/blackKingPiece.png"));
             selectableKingPiece = ImageIO.read(new 
-                File("src/images/selectableKingPiece.png"));
+                File("checkers/images/selectableKingPiece.png"));
             selectedPiece = ImageIO.read(new 
-                File("src/images/selectedPiece.png"));
+                File("checkers/images/selectedPiece.png"));
             selectedKingPiece = ImageIO.read(new 
-                File("src/images/selectedKingPiece.png"));
+                File("checkers/images/selectedKingPiece.png"));
 
         } catch (IOException e) {
             e.printStackTrace();
