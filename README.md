@@ -17,7 +17,7 @@ This project is an interactive checkers game implemented in Java, allowing users
 
 1. Clone the repository to your local machine:
 
-git clone https://github.com/your_username/checkers-game.git
+git clone git@github.com:Iliyabel/CheckersAIGame.git
 
 2. cd into the src directory through your terminal
 
