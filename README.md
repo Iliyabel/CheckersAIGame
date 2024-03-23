@@ -19,13 +19,15 @@ This project is an interactive checkers game implemented in Java, allowing users
 
 git clone https://github.com/your_username/checkers-game.git
 
-2. Compile the Java files:
+2. cd into the src directory through your terminal
 
-javac *.java
+3. Compile the Java files:
 
-3. Run the main program:
+javac -cp src checkers/*.java
 
-java CheckersGame
+4. Run the main program:
+
+java -cp . checkers.ProjectMain
 
 ## Usage
 
