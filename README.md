@@ -23,8 +23,9 @@ git clone https://github.com/your_username/checkers-game.git
 
 javac *.java
 
-3. Run the main program "ProjectMain.java":
+3. Run the main program:
 
+java CheckersGame
 
 ## Usage
 
