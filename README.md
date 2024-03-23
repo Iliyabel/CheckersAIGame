@@ -21,7 +21,9 @@ git clone git@github.com:Iliyabel/CheckersAIGame.git
 
 2. cd into the src directory through your terminal
 
-3. Compile the Java files:
+cd .\CheckersAIGame\src\
+
+4. Compile the Java files:
 
 javac -cp src checkers/*.java
 
