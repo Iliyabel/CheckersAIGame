@@ -21,26 +21,36 @@ https://github.com/Iliyabel/CheckersAIGame/assets/104235698/4f037eae-b956-4d6b-8
 
 ## Installation
 
+Requirements: You must make sure you have JDK installed in order to run this program.
+
 1. Clone the repository to your local machine:
 
+```sh
 git clone git@github.com:Iliyabel/CheckersAIGame.git
+```
 
 2. cd into the src directory through your terminal
 
+```sh
 cd .\CheckersAIGame\src\
+```
 
 4. Compile the Java files:
 
+```sh
 javac -cp src checkers/*.java
+```
 
 4. Run the main program:
 
+```sh
 java -cp . checkers.ProjectMain
+```
+
 
 ## Usage
 
-- Upon running the program, follow the on-screen instructions to play the checkers game.
-- Use the mouse or keyboard to make moves and interact with the game.
+- Use the mouse to make moves by pressing on the highlighted (in white) pieces and then pressing on the green highlighted square you wish to move to.
 - Adjust the difficulty level of the AI opponent as desired.
 - Check the leaderboard to see where you rank based on the least amount of moves.
 
