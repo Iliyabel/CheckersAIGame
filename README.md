@@ -13,6 +13,12 @@ This project is an interactive checkers game implemented in Java, allowing users
 - **Collaborative Development**: The project was successfully completed through collaboration with another student, ensuring high-quality implementation and testing.
 
 
+## Demo
+
+
+https://github.com/Iliyabel/CheckersAIGame/assets/104235698/4f037eae-b956-4d6b-80ae-3708f35a5600
+
+
 ## Installation
 
 1. Clone the repository to your local machine:
