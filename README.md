@@ -55,7 +55,6 @@ java -cp . checkers.ProjectMain
 - Check the leaderboard to see where you rank based on the least amount of moves.
 
 
-## Contributors
+## Contributor
 
 - Iliya Belyak
-- Chak Kwan Lai
